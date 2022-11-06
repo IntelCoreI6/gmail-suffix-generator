@@ -5,7 +5,7 @@ This means u can create multiple accounts for a service while all trafic is poin
 
 Be aware a realy small percentage of websites don't allow these types of email adresses.
 
-![](C:\Users\tomvd\AppData\Roaming\marktext\images\2022-11-06-21-31-00-image.png)
+![](https://cdn.discordapp.com/attachments/804334459297464321/1038915225556099162/IQDbZWZ.png)
 
 ## How to use :
 
