@@ -1,7 +1,7 @@
 # gmail-suffix-generator
 
 A simple email generator that uses the gmail plus suffix feature to generate unlimited email addresses which all point to one inbox.
-This means u can create multiple accounts for a service while all trafic is pointed to one inbox, this is usefull for mass creating accounts.
+This means u can create multiple accounts for a service while all trafic is pointed to one inbox which is usefull for mass creating accounts.
 
 Be aware a realy small percentage of websites don't allow these types of email adresses.
 
