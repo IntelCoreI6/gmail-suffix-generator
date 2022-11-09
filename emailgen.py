@@ -1,11 +1,8 @@
-from cgi import print_form
-import email
-from msilib.schema import Directory
+
 import random
 import string
 import time
 import os
-import csv
 output = []
 randomLeghnt = 5
 
