@@ -21,3 +21,9 @@ WARNING⚠️: This isn't a Google account generator.
 
 5.  copy them or export them using the "export suffix" submenu
     Note: if the export file is empty export it again to the same path
+
+##Working status:
+| Status | Service       |
+| - | ------ |
+| 🚫| Facebook |
+| ✅| Discord |
