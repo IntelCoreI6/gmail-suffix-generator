@@ -5,7 +5,7 @@ import time
 import os
 output = []
 randomLeghnt = 5
-
+path = os.path.realpath(os.path.dirname(__file__))
 
 
 
@@ -22,30 +22,28 @@ def prefixgen(exportAmount, Email):
         final = "{}+{}@gmail.com".format(Emailcore, ranID)
         output.append(final)
     print(output)
+    exportprefix(path)
     input("Press Enter to continue...")
-    mainmenu()
+
+    quit
 
 def exportprefix(exportdir):
     try:
         Directory = r'{}\Output.txt'.format(exportdir)
-        print("file location: " + Directory)
+        print("file location: " + Directory + "\ ")
         with open(Directory, 'w') as fp:
             for item in output:
                 fp.write("%s\n" % item)
             
-            print('\033[32m' + "suffix are exported in selected directory" + '\033[0m')
+            print('\033[32m' + "[+] suffix are exported in selected directory" + '\033[0m')
             input("Press Enter to continue...")
             mainmenu()
     except:
-        print('\033[31m' + "Directory not found or no generated suffix found" + '\033[0m')
+        print('\033[31m' + "[CRITICAL] Directory not found or no generated suffix found" + '\033[0m')
         input("Press Enter to continue...")
         mainmenu()
 
-
-
-
-def mainmenu():
-    os.system('cls')
+def logo():
     print('\033[35m' + """  
 
 
@@ -64,34 +62,43 @@ def mainmenu():
 made by: IntelCoreI6#5753                                                                                                 
 
 """ + '\033[0m')
-    print('\033[35m' + """ 
+
+
+def mainmenu():
+    os.system('cls')
+
+    answer = input('\033[35m' + """ 
 
     [1] generate suffix
-    [2] export suffix
-    [3] close program                                                                                                  
+    [2] settings
+    [3] close program                                                                                          
 
-""" + '\033[0m')
-    answer = input()
+""" + '\033[0m') 
     if answer == "1" :
         email
         genAmount = int(input("How many suffix do you want to generate?         "))
         emailinput = input("give the gmail acc u wanna use                        ")
         prefixgen(genAmount, emailinput)
-        
-
     elif answer == "2":
-        exportpath = input("Where do you want to save the file? ")
-        exportprefix(exportpath)
+        logo()
+        sansw = input('\033[35m' + """ 
 
+        [1] change output directory
+        [2] go back to main menu
+
+        """ + '\033[0m')
+        if sansw == "1":
+            global path
+            path =  input("New path ?")
+            print('\033[32m' + "[+] new path selected" + '\033[0m')
+            input("Press Enter to continue...")
+            mainmenu()
+        elif sansw == "2":
+            mainmenu()
 
     elif answer == "3":
-        print("")
+        quit
     else:
         print('\033[31m' + "This is not a valid answer" + '\033[0m')
 
 mainmenu()
-
-
-
-            
-
