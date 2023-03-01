@@ -23,9 +23,9 @@ WARNING⚠️: This isn't a Google account generator.
     Note: if the export file is empty export it again to the same path
 
 ## Working status:
-
+**note: most meta products wont work**
 | Status | Service       |
 | - | ------ |
 | 🚫| Facebook |
-| 🚫| Instagram |       note: most meta products wont work
+| 🚫| Instagram |       
 | ✅| Discord |
