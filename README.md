@@ -3,7 +3,7 @@
 A simple email generator that uses the [gmail plus suffix feature]( https://support.cloudhq.net/how-to-setup-gmail-aliases/#:~:text=Append%20a%20plus%20(“%2B”,at%20yourusername%40gmail.com. ) to generate unlimited email addresses which all point to one inbox.
 This means u can create multiple accounts for a service while all trafic is pointed to one inbox which is usefull for mass creating accounts.
 
-Be aware a small percentage of websites don't allow these types of email adresses.
+Be aware a small percentage of websites don't allow these types of email adresses. ( see table below )
 
 WARNING⚠️: This isn't a Google account generator.
 
