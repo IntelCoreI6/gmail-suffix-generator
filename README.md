@@ -19,8 +19,7 @@ WARNING⚠️: This isn't a Google account generator.
 
 4.  input ur <u><mark>**gmail**</mark></u> address and select how many emails u want to generate
 
-5.  copy them or export them using the "export suffix" submenu
-    Note: if the export file is empty, try exporting it again to the same path
+5.  the emails will be exported automatically to the "emailgen.py" directory (Output.txt).
 
 ## Working status:
 **note: most meta products wont work**
