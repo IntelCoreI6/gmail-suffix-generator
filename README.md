@@ -26,5 +26,6 @@ WARNING⚠️: This isn't a Google account generator.
 | Status | Service       |
 | - | ------ |
 | 🚫| Facebook |
-| 🚫| Instagram |       
+| 🚫| Instagram |   
+| 🚫| Steam | 
 | ✅| Discord |
