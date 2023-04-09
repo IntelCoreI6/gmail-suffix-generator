@@ -7,7 +7,7 @@ Be aware a small percentage of websites don't allow these types of email adresse
 
 WARNING⚠️: This isn't a Google account generator.
 
-![](https://cdn.discordapp.com/attachments/804334459297464321/1038915225556099162/IQDbZWZ.png)
+![](https://cdn.discordapp.com/attachments/916770878010839170/1094698142823366677/211336763-b56d307f-59cc-40cd-80e2-6db87ea211f8.png)
 
 ## How to use :
 
