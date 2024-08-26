@@ -22,10 +22,8 @@ WARNING⚠️: This isn't a Google account generator.
 5.  the emails will be exported automatically to the "emailgen.py" directory (Output.txt).
 
 ## Working status:
-**note: most meta products wont work**
 | Status | Service       |
 | - | ------ |
-| 🚫| Facebook |
-| 🚫| Instagram |   
+| 🚫| most meta products: Facebook, Instagram, ...|   
 | 🚫| Steam | 
 | ✅| Discord |
